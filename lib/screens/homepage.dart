@@ -49,27 +49,25 @@ class _HomePageState extends State<HomePage> {
                       borderRadius: BorderRadius.circular(30),
                       color: Colors.white,
                     ),
-                    child: Expanded(
-                      child: GridView.count(
-                        physics: const NeverScrollableScrollPhysics(),
-                        padding: const EdgeInsets.all(5),
-                        shrinkWrap: true,
-                        crossAxisCount: 3,
-                        children: [
-                          optionTile(
-                              'assets/icons/book_tickets.png', "Book Tickets"),
-                          optionTile(
-                              'assets/icons/plan_journey.png', "Plan Journey"),
-                          optionTile('assets/icons/nearby_metro_station.png',
-                              "Search Station"),
-                          optionTile('assets/icons/smart_card_recharge.png',
-                              "Smart Card Recharge"),
-                          optionTile('assets/icons/calculate_fare.png',
-                              "Calculate Fare"),
-                          optionTile('assets/icons/view_transactions.png',
-                              "View Transactions")
-                        ],
-                      ),
+                    child: GridView.count(
+                      physics: const NeverScrollableScrollPhysics(),
+                      padding: const EdgeInsets.all(5),
+                      shrinkWrap: true,
+                      crossAxisCount: 3,
+                      children: [
+                        optionTile(
+                            'assets/icons/book_tickets.png', "Book Tickets"),
+                        optionTile(
+                            'assets/icons/plan_journey.png', "Plan Journey"),
+                        optionTile('assets/icons/nearby_metro_station.png',
+                            "Search Station"),
+                        optionTile('assets/icons/smart_card_recharge.png',
+                            "Smart Card Recharge"),
+                        optionTile('assets/icons/calculate_fare.png',
+                            "Calculate Fare"),
+                        optionTile('assets/icons/view_transactions.png',
+                            "View Transactions")
+                      ],
                     ),
                   ),
                 ),
